@@ -1,0 +1,18 @@
+{
+    "name": "the-alex-mark/proglib-cli",
+    "description": "Интерфейс командной строки",
+    "version": "1.0",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/process": "^5.3",
+        "ext-readline": "*",
+        "ext-mbstring": "*",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProgLib\\CLI\\": "src/"
+        }
+    }
+}
